@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.nav-bar {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo h1 {
+  color: #083964;
+  font-size: 40px;
+}
+
+.logo span {
+  color: rgb(255, 111, 0);
+}
+ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.hamburger{
+
+  display: none;
+}
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #083964;
+  font-size: 20px;
+}
+u {
+  color: rgb(255, 111, 0);
+}
+button {
+  padding: 10px 40px;
+  background-color: rgb(255, 111, 0);
+  color: white;
+  border: none;
+  border-radius: 100px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.contact-us{
+  background-image: url(./images/milky-way-8149815_1280.jpg);
+  justify-items: center;
+  padding: 10px;
+}
+
+
+.contact-us h1{
+  color: white;
+  margin-bottom: 5px;
+}
+p{
+   color: white;
+  margin-bottom: 5px;
+font-style: italic;
+}
+
+label{
+ 
+  display: block;
+  margin-top: 10px;
+  color: white;
+}
+input,textarea{
+   border-radius: 10px;
+  padding: 10px 70px;
+}
+
+
+form button{
+  justify-items: center;
+  border-radius: 20px;
+  margin-top: 10px;
+  background-color: #083964;
+  display: block;
+  padding: 10px 130px;
+
+}
+
+@media  (max-width: 768px) {
+
+  .nav-bar{
+    padding: 10px;
+  }
+  ul{
+    display: none;
+  }
+.hamburger{
+  display: flex;
+}
+
+p{
+  font-size: 11.5px;
+}
+  button{
+    display: none;
+  }
+
+  input{
+   border-radius: 10px;
+  padding: 10px 60px;
+}
+}
+

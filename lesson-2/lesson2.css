@@ -1,0 +1,58 @@
+body{
+  background-image: url(./images/windows-5EQkyNai6L0-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+}
+ul {
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: end;
+  margin-right: 50px;
+  gap: 20px;
+}
+li {
+  list-style: none;
+}
+
+ a {
+  color: black;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.main-article {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 50px;
+  align-items: center;
+}
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 0;
+}
+
+img {
+  border-radius: 5px;
+  height: 290px;
+  width: 290px;
+}
+
+.projects {
+  margin-left: 50px;
+}
+p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.Contact button {
+  padding: 10px 15px;
+  background-color: green;
+  margin-bottom: 0.5em;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 800;
+}
